@@ -11,13 +11,13 @@ try {
     $stmt->execute();
 
     if ($stmt->rowCount() > 0) {
-        echo "<script>alert('Record Id=$id_value deleted successfully!'); location='delete-contact.phtml';</script>";
+        echo "<script>alert('Record Id=$id_value deleted successfully!'); location='index.phtml';</script>";
     } else {
         echo "<script>alert('There is no such record!'); location='delete-contact.phtml';</script>";
     }
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
-    echo "<script>alert('Error: ' . $e->getMessage()); location='index.phtml';</script>";
+    echo "<script>alert('Error: ' . $e->getMessage()); location='delete-contact.phtml';</script>";
 }
 
 $conn = null;
