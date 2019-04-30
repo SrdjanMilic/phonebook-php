@@ -1,0 +1,38 @@
+body {
+  background-color: #ececec !important;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #FFF;
+}
+
+header {
+  margin-bottom: .8rem;
+}
+
+#add-contact-form, #delete-contact-form {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+.table th:first-of-type,
+.table td:first-of-type {
+  text-align: center;
+  width: 65px;
+}
+
+.table th:last-of-type,
+.table td:last-of-type {
+  width: 220px;
+}
+
+footer {
+  text-align: center;
+  font-size: 82%;
+  color: #aaaaaa;
+  margin: 6% 0 3%;
+}
