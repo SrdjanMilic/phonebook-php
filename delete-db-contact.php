@@ -17,7 +17,7 @@ try {
     }
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
-    echo "<script>alert('Error: ' . $e->getMessage()); location='delete-contact.phtml';</script>";
+    echo "<script>alert('Error: ' . $e->getMessage()); location='index.phtml';</script>";
 }
 
 $conn = null;
