@@ -1,6 +1,6 @@
 # Phonebook
 
-Simple phone book PHP app, written for one company testing requirements.  
+Simple phone book PHP app.  
 The goal was to display MySql database interactions: create, delete, list and search records.  
 
 Site instance:  
