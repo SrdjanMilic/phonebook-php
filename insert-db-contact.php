@@ -17,4 +17,3 @@ $stmt->close();
 $mysqli->close();
 
 echo "<script>alert('Contact added!'); location='index.phtml';</script>";
-
